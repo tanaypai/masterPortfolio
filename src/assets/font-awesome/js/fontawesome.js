@@ -562,6 +562,7 @@
   function notifyRejectionHandled(promise) {
     global.process.emit("rejectionHandled", promise);
   }
+
   /**
    * @class
    */
@@ -715,6 +716,7 @@
       }
     }
   }
+
   function insertCss(css) {
     if (!css || !IS_DOM) {
       return;
@@ -738,7 +740,9 @@
     DOCUMENT.head.insertBefore(style, beforeChild);
     return css;
   }
+
   var idPool = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
   function nextUniqueId() {
     var size = 12;
     var id = "";
@@ -749,6 +753,7 @@
 
     return id;
   }
+
   function toArray(obj) {
     var array = [];
 
@@ -758,6 +763,7 @@
 
     return array;
   }
+
   function classArray(node) {
     if (node.classList) {
       return toArray(node.classList);
@@ -767,6 +773,7 @@
       });
     }
   }
+
   function getIconName(familyPrefix, cls) {
     var parts = cls.split("-");
     var prefix = parts[0];
@@ -778,6 +785,7 @@
       return null;
     }
   }
+
   function htmlEscape(str) {
     return ""
       .concat(str)
@@ -787,6 +795,7 @@
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;");
   }
+
   function joinAttributes(attributes) {
     return Object.keys(attributes || {})
       .reduce(function (acc, attributeName) {
@@ -799,11 +808,13 @@
       }, "")
       .trim();
   }
+
   function joinStyles(styles) {
     return Object.keys(styles || {}).reduce(function (acc, styleName) {
       return acc + "".concat(styleName, ": ").concat(styles[styleName], ";");
     }, "");
   }
+
   function transformIsMeaningful(transform) {
     return (
       transform.size !== meaninglessTransform.size ||
@@ -814,6 +825,7 @@
       transform.flipY
     );
   }
+
   function transformForSvg(_ref) {
     var transform = _ref.transform,
       containerWidth = _ref.containerWidth,
@@ -843,6 +855,7 @@
       path: path,
     };
   }
+
   function transformForCss(_ref2) {
     var transform = _ref2.transform,
       _ref2$width = _ref2.width,
@@ -1179,6 +1192,7 @@
       return asIcon(args);
     }
   }
+
   function makeLayersTextAbstract(params) {
     var content = params.content,
       width = params.width,
@@ -1243,6 +1257,7 @@
 
     return val;
   }
+
   function makeLayersCounterAbstract(params) {
     var content = params.content,
       title = params.title,
@@ -1479,12 +1494,15 @@
     );
   };
   build();
+
   function byUnicode(prefix, unicode) {
     return (_byUnicode[prefix] || {})[unicode];
   }
+
   function byLigature(prefix, ligature) {
     return (_byLigature[prefix] || {})[ligature];
   }
+
   function byOldName(name) {
     return (
       _byOldName[name] || {
@@ -1502,6 +1520,7 @@
       rest: [],
     };
   };
+
   function getCanonicalIcon(values) {
     return values.reduce(function (acc, cls) {
       var iconName = getIconName(config.familyPrefix, cls);
@@ -1527,6 +1546,7 @@
       return acc;
     }, emptyCanonicalIcon());
   }
+
   function iconFromMapping(mapping, prefix, iconName) {
     if (mapping && mapping[prefix] && mapping[prefix][iconName]) {
       return {
@@ -1658,14 +1678,19 @@
       });
     }
   }
+
   var disabled = false;
+
   function disableObservation() {
     disabled = true;
   }
+
   function enableObservation() {
     disabled = false;
   }
+
   var mo = null;
+
   function observe(options) {
     if (!MUTATION_OBSERVER) {
       return;
@@ -1734,6 +1759,7 @@
       subtree: true,
     });
   }
+
   function disconnect() {
     if (!mo) return;
     mo.disconnect();
@@ -1851,6 +1877,7 @@
         }, transform);
     }
   };
+
   function transformParser(node) {
     return parseTransformString(node.getAttribute("data-fa-transform"));
   }
@@ -1913,6 +1940,7 @@
       },
     };
   }
+
   function parseMeta(node) {
     var _classParser = classParser(node),
       iconName = _classParser.iconName,
@@ -1944,6 +1972,7 @@
     this.message = error || "Icon unavailable";
     this.stack = new Error().stack;
   }
+
   MissingIcon.prototype = Object.create(Error.prototype);
   MissingIcon.prototype.constructor = MissingIcon;
 
@@ -2028,6 +2057,7 @@
   };
 
   var styles$2 = namespace.styles;
+
   function asFoundIcon(icon) {
     var width = icon[0];
     var height = icon[1];
@@ -2086,6 +2116,7 @@
       icon: element,
     };
   }
+
   function findIcon(iconName, prefix) {
     return new picked(function (resolve, reject) {
       var val = {
@@ -2296,6 +2327,7 @@
         });
     });
   }
+
   function onNode(node) {
     var callback =
       arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;

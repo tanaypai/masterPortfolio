@@ -174,11 +174,13 @@ const degrees = {
       alt_name: "ASU",
       duration: "Expected 2025",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "Relevant Coursework:",
+        "CSE 551: Foundations of Algorithms",
+        "CSE 575: Statistical Machine Learning",
+        "CSE 520: Computer Architecture II",
+        "CSE 340: Principles of Programming Languages",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://www.asu.edu/",
     },
     {
       title: "Manipal Institute of Technology",
@@ -188,11 +190,21 @@ const degrees = {
       alt_name: "MIT, Manipal",
       duration: "2018 - 2022",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "Relevant Coursework (Grades - 10.0 GPA Scale):",
+        "ECE 4070: Data Structures and Algorithms (A - 9.0)",
+        "ECE 4080: Object Oriented Programming Using C++ (A+ - 10.0)",
+        "ECE 4081: Operating Systems for Advanced Processors (A - 9.0)",
+        "CSE 4305: Principles of Soft Computing (A - 9.0)",
+        "CSE 4307: Programming in C# (A - 9.0)",
+        "CRA 4060: Introduction to Data Science (A+ - 10.0)",
+        "CRA 4059: Data Scientists' Toolbox and R Programming (A+ - 10.0)",
+        "CRA 4061: Data Science Part - II (A - 9.0)",
+        "CRA 4062: Advanced Data Science Part - III (A+ - 10.0)",
+        "ICT 4305: Networking with TCP/IP (B - 8.0)",
+        "ECE 2151: Computer Organization and Architecture (B - 8.0)",
+        "CSE 1051: Problem Solving Using Computers (A - 9.0)",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "http://manipal.edu",
     },
   ],
 };
@@ -201,111 +213,102 @@ const certifications = {
   certifications: [
     {
       title: "Data Science Specialization",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      subtitle: "- Jeff Leek, Roger Peng, and Brian Caffo",
+      logo_path: "jhu_logo.jpeg",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
+        "https://www.coursera.org/account/accomplishments/specialization/certificate/TUGYWDTEGTUA",
+      alt_name: "jhu",
+      color_code: "#042c73",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "Programming for Everybody (Getting Started with Python)",
+      subtitle: "- Charles Russell Severance",
+      logo_path: "um_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+        "https://www.coursera.org/account/accomplishments/certificate/B7X8BGRKDLJF",
+      alt_name: "um",
+      color_code: "#00274c",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "Python Data Structures",
+      subtitle: "- Charles Russell Severance",
+      logo_path: "um_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+        "https://www.coursera.org/account/accomplishments/certificate/AR2Q5SBQV7WA",
+      alt_name: "um",
+      color_code: "#00274c",
     },
     {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
+      title: "Python for Data Science, AI & Development",
+      subtitle: "- Joseph Santarcangelo",
+      logo_path: "ibm_logo.svg",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
+        "https://www.coursera.org/account/accomplishments/certificate/4V35P7VYYYCQ",
+      alt_name: "ibm",
+      color_code: "#FFFFFF",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
+      title: "Introduction to Cloud Development with HTML, CSS, JavaScript",
+      subtitle: "- Upkar Lidder, Rav Ahuja, and Michelle Saltoun",
+      logo_path: "ibm_logo.svg",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
+        "https://www.coursera.org/account/accomplishments/certificate/FT7MAHPXWUVC",
+      alt_name: "ibm",
+      color_code: "#FFFFFF",
     },
     {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
+      title: "Docker - Introducing Docker Essentials, Containers, and more",
+      subtitle: "- David Joseph Katz",
+      logo_path: "udemy_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
+        "https://udemy.com/certificate/UC-961e373a-362c-486f-a6b7-6482ee72b219",
+      alt_name: "udemy",
+      color_code: "#000000",
     },
     {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "The Complete React Js & Redux Course - Build Modern Web Apps",
+      subtitle: "- Rayan Slim, Rob Percival, Jad Slim",
+      logo_path: "udemy_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+        "https://udemy.com/certificate/UC-030c9881-9510-423c-9840-d82388f6290e",
+      alt_name: "udemy",
+      color_code: "#000000",
     },
     {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "NestJS Zero to Hero - Modern TypeScript Back-end Development",
+      subtitle: "- Ariel Weinberger",
+      logo_path: "udemy_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+        "https://udemy.com/certificate/UC-da0021ef-e8bb-42ee-8b5b-8e6c37e88660",
+      alt_name: "udemy",
+      color_code: "#000000",
     },
     {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
+      title: "C# Basics for Beginners: Learn C# Fundamentals by Coding",
+      subtitle: "- Mosh Hamedani",
+      logo_path: "udemy_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
+        "https://udemy.com/certificate/UC-df50a0c2-4ff5-40d6-9e60-10d633817500/",
+      alt_name: "udemy",
+      color_code: "#000000",
     },
     {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
+      title: "Complete Katalon Studio 2020 for Web + API Test Automation",
+      subtitle: "- Peter Jenkins",
+      logo_path: "udemy_logo.png",
       certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+        "https://udemy.com/certificate/UC-66eb9484-19fc-434d-a534-5cca5b570ef1",
+      alt_name: "udemy",
+      color_code: "#000000",
     },
     {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
+      title: "Agile Transformation and Scaled Agile",
+      subtitle: "- ICAN Consultancy",
+      logo_path: "udemy_logo.png",
       certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+        "https://udemy.com/certificate/UC-fed6d4ef-08d6-4727-a38c-297f7d6c3652",
+      alt_name: "udemy",
+      color_code: "#000000",
     },
   ],
 };
@@ -314,8 +317,7 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
-  description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+  description: "SWE",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -371,70 +373,72 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+  description: "Coming Soon!",
   avatar_image_path: "projects_image.svg",
 };
 
-// const publicationsHeader = {
-//     title: "Publications",
-//     description:
-//         "I have worked on and published a few research papers and publications of my own.",
-//     avatar_image_path: "projects_image.svg",
-// };
-//
-// const publications = {
-//     data: [
-//         {
-//             id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-//             name: "Artificial Intelligence Paper",
-//             createdAt: "2020-03-06T16:26:54Z",
-//             description: "Paper Written on Artificial Intelligence published in xyz ",
-//             url:
-//                 "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-//         },
-//         {
-//             id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-//             name: "Artificial Intelligence Paper",
-//             createdAt: "2020-03-06T16:26:54Z",
-//             description: "Paper Written on Artificial Intelligence published in xyz ",
-//             url:
-//                 "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-//         },
-//         {
-//             id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-//             name: "Artificial Intelligence Paper",
-//             createdAt: "2020-03-06T16:26:54Z",
-//             description: "Paper Written on Artificial Intelligence published in xyz ",
-//             url:
-//                 "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-//         },
-//         {
-//             id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-//             name: "Artificial Intelligence Paper",
-//             createdAt: "2020-03-06T16:26:54Z",
-//             description: "Paper Written on Artificial Intelligence published in xyz ",
-//             url:
-//                 "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-//         },
-//         {
-//             id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-//             name: "Artificial Intelligence Paper",
-//             createdAt: "2020-03-06T16:26:54Z",
-//             description: "Paper Written on Artificial Intelligence published in xyz ",
-//             url:
-//                 "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-//         },
-//     ],
-// };
+const publicationsHeader = {
+  title: "Publications",
+  description:
+    // "I have worked on and published a few research papers and publications of my own.",
+    "",
+  avatar_image_path: "projects_image.svg",
+};
+
+const publications = {
+  data: [
+    // {
+    //     id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+    //     name: "Artificial Intelligence Paper",
+    //     createdAt: "2020-03-06T16:26:54Z",
+    //     description: "Paper Written on Artificial Intelligence published in xyz ",
+    //     url:
+    //         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+    // },
+    // {
+    //     id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
+    //     name: "Artificial Intelligence Paper",
+    //     createdAt: "2020-03-06T16:26:54Z",
+    //     description: "Paper Written on Artificial Intelligence published in xyz ",
+    //     url:
+    //         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+    // },
+    // {
+    //     id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
+    //     name: "Artificial Intelligence Paper",
+    //     createdAt: "2020-03-06T16:26:54Z",
+    //     description: "Paper Written on Artificial Intelligence published in xyz ",
+    //     url:
+    //         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+    // },
+    // {
+    //     id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
+    //     name: "Artificial Intelligence Paper",
+    //     createdAt: "2020-03-06T16:26:54Z",
+    //     description: "Paper Written on Artificial Intelligence published in xyz ",
+    //     url:
+    //         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+    // },
+    // {
+    //     id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
+    //     name: "Artificial Intelligence Paper",
+    //     createdAt: "2020-03-06T16:26:54Z",
+    //     description: "Paper Written on Artificial Intelligence published in xyz ",
+    //     url:
+    //         "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+    // },
+  ],
+};
 
 // Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "tanay_avi.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "If you have any questions or would like to reach out, please send a mail to ",
+    link: "mailto:tanayvpai@gmail.com",
+    mail: "tanayvpai@gmail.com",
   },
   blogSection: {
     title: "Blogs",
@@ -444,16 +448,15 @@ const contactPageData = {
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-    locality: "Kanodar",
-    country: "IN",
-    region: "Gujarat",
-    postalCode: "385520",
-    streetAddress: "Ambavadi vas",
+    title: "Location",
+    subtitle: "Tempe, AZ",
+    // locality: "Kanodar",
+    // country: "IN",
+    // region: "Gujarat",
+    // postalCode: "385520",
+    // streetAddress: "Ambavadi vas",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://maps.app.goo.gl/C98euRPjK5rHfE4D8",
   },
   phoneSection: {
     title: "",
@@ -472,7 +475,7 @@ export {
   certifications,
   experience,
   projectsHeader,
-  // publicationsHeader,
-  // publications,
+  publicationsHeader,
+  publications,
   contactPageData,
 };

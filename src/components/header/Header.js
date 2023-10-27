@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
-import { NavLink, Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
 
@@ -84,27 +84,28 @@ class Header extends Component {
                   Projects
                 </NavLink>
               </li>
+              {/* todo: OPEN SOURCE*/}
+              {/*<li>*/}
+              {/*    /!*<NavLink*!/*/}
+              {/*    /!*  to="/opensource"*!/*/}
+              {/*    /!*  tag={Link}*!/*/}
+              {/*    /!*  activeStyle={{ fontWeight: "bold" }}*!/*/}
+              {/*    /!*  style={{ color: theme.text }}*!/*/}
+              {/*    /!*  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}*!/*/}
+              {/*    /!*  onMouseOut={(event) => onMouseOut(event)}*!/*/}
+              {/*    /!*>*!/*/}
+              {/*    /!*      Open Source*!/*/}
+              {/*    /!*    </NavLink>*!/*/}
+              {/*</li>*/}
               <li>
                 <NavLink
-                  to="/opensource"
+                  to="/contact"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  {/*    Open Source*/}
-                  {/*  </NavLink>*/}
-                  {/*</li>*/}
-                  {/*<li>*/}
-                  {/*  <NavLink*/}
-                  {/*    to="/contact"*/}
-                  {/*    tag={Link}*/}
-                  {/*    activeStyle={{ fontWeight: "bold" }}*/}
-                  {/*    style={{ color: theme.text }}*/}
-                  {/*    onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}*/}
-                  {/*    onMouseOut={(event) => onMouseOut(event)}*/}
-                  {/*  >*/}
                   Contact Me
                 </NavLink>
               </li>
@@ -115,4 +116,5 @@ class Header extends Component {
     );
   }
 }
+
 export default Header;

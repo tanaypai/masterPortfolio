@@ -1,7 +1,33 @@
 {
   "closed": 0,
-  "data": [],
-  "merged": 0,
+  "data": [
+    {
+      "id": "PR_kwDOKlM95c5d1N9d",
+      "title": "Move Latest Code",
+      "url": "https://github.com/tanaypai/masterPortfolio/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81490500?v=4",
+        "url": "https://github.com/tanaypai",
+        "login": "tanaypai"
+      },
+      "createdAt": "2023-10-26T07:18:20Z",
+      "number": 1,
+      "changedFiles": 1720,
+      "additions": 13236,
+      "deletions": 14294,
+      "baseRepository": {
+        "name": "masterPortfolio",
+        "url": "https://github.com/tanaypai/masterPortfolio",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/81490500?v=4",
+          "login": "tanaypai",
+          "url": "https://github.com/tanaypai"
+        }
+      }
+    }
+  ],
+  "merged": 1,
   "open": 0,
-  "totalCount": 0
+  "totalCount": 1
 }

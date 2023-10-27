@@ -233,6 +233,7 @@
         var msw = (x >> 16) + (y >> 16) + (lsw >> 16);
         return (msw << 16) | (lsw & 0xffff);
       }
+
       /**
        * Bitwise rotate a 32-bit number to the left.
        *
@@ -244,6 +245,7 @@
       function bitRotateLeft(num, cnt) {
         return (num << cnt) | (num >>> (32 - cnt));
       }
+
       /**
        * Basic operation the algorithm uses.
        *
@@ -262,6 +264,7 @@
           b
         );
       }
+
       /**
        * Basic operation the algorithm uses.
        *
@@ -278,6 +281,7 @@
       function md5ff(a, b, c, d, x, s, t) {
         return md5cmn((b & c) | (~b & d), a, b, x, s, t);
       }
+
       /**
        * Basic operation the algorithm uses.
        *
@@ -294,6 +298,7 @@
       function md5gg(a, b, c, d, x, s, t) {
         return md5cmn((b & d) | (c & ~d), a, b, x, s, t);
       }
+
       /**
        * Basic operation the algorithm uses.
        *
@@ -310,6 +315,7 @@
       function md5hh(a, b, c, d, x, s, t) {
         return md5cmn(b ^ c ^ d, a, b, x, s, t);
       }
+
       /**
        * Basic operation the algorithm uses.
        *
@@ -326,6 +332,7 @@
       function md5ii(a, b, c, d, x, s, t) {
         return md5cmn(c ^ (b | ~d), a, b, x, s, t);
       }
+
       /**
        * Calculate the MD5 of an array of little-endian words, and a bit length.
        *
@@ -425,6 +432,7 @@
 
         return [a, b, c, d];
       }
+
       /**
        * Convert an array of little-endian words to a string
        *
@@ -443,6 +451,7 @@
 
         return output;
       }
+
       /**
        * Convert a raw string to an array of little-endian words
        * Characters >255 have their high-byte silently ignored.
@@ -468,6 +477,7 @@
 
         return output;
       }
+
       /**
        * Calculate the MD5 of a raw string
        *
@@ -478,6 +488,7 @@
       function rstrMD5(s) {
         return binl2rstr(binlMD5(rstr2binl(s), s.length * 8));
       }
+
       /**
        * Calculates the HMAC-MD5 of a key and some data (raw strings)
        *
@@ -506,6 +517,7 @@
         hash = binlMD5(ipad.concat(rstr2binl(data)), 512 + data.length * 8);
         return binl2rstr(binlMD5(opad.concat(hash), 512 + 128));
       }
+
       /**
        * Convert a raw string to a hex string
        *
@@ -526,6 +538,7 @@
 
         return output;
       }
+
       /**
        * Encode a string as UTF-8
        *
@@ -536,6 +549,7 @@
       function str2rstrUTF8(input) {
         return unescape(encodeURIComponent(input));
       }
+
       /**
        * Encodes input string as raw MD5 string
        *
@@ -546,6 +560,7 @@
       function rawMD5(s) {
         return rstrMD5(str2rstrUTF8(s));
       }
+
       /**
        * Encodes input string as Hex encoded string
        *
@@ -556,6 +571,7 @@
       function hexMD5(s) {
         return rstr2hex(rawMD5(s));
       }
+
       /**
        * Calculates the raw HMAC-MD5 for the given key and data
        *
@@ -567,6 +583,7 @@
       function rawHMACMD5(k, d) {
         return rstrHMACMD5(str2rstrUTF8(k), str2rstrUTF8(d));
       }
+
       /**
        * Calculates the Hex encoded HMAC-MD5 for the given key and data
        *
@@ -578,6 +595,7 @@
       function hexHMACMD5(k, d) {
         return rstr2hex(rawHMACMD5(k, d));
       }
+
       /**
        * Calculates MD5 value for a given string.
        * If a key is provided, calculates the HMAC-MD5 value.

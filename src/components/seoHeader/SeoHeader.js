@@ -1,12 +1,12 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import {
+  certifications,
+  contactPageData,
+  experience,
   greeting,
   seo,
   socialMediaLinks,
-  experience,
-  contactPageData,
-  certifications,
 } from "../../portfolio.js";
 
 function SeoHeader() {

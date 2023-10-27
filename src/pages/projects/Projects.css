@@ -55,6 +55,7 @@
   margin-right: 20px;
   font-family: "Google Sans Medium";
 }
+
 .publications-heading-text-div {
   text-align: center;
   font-family: "Google Sans Regular";
@@ -65,6 +66,7 @@
   font-size: 56px;
   font-weight: 600;
 }
+
 .repo-cards-div-main {
   display: flex;
   flex-direction: row;
@@ -80,6 +82,7 @@
     font-size: 50px;
     margin-top: 80px;
   }
+
   .projects-heading-sub-text {
     font-size: 25px;
   }

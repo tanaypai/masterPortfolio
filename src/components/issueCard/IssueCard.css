@@ -2,7 +2,7 @@
   width: 75%;
   display: inline-block;
   /* margin-left: 12.5%;
-    margin-right: 12.5%; */
+      margin-right: 12.5%; */
   margin-bottom: 10px;
   border-radius: 5px;
   padding: 10px;
@@ -195,7 +195,7 @@
   .issue-card {
     width: 85%;
     /* margin-left: 5%;
-        margin-right: 5%; */
+            margin-right: 5%; */
   }
 
   .issue-top {
@@ -231,6 +231,7 @@
     overflow: hidden;
     font-size: 15px;
   }
+
   .pr-subtitile {
     font-size: 12px;
     margin-top: 3px;
