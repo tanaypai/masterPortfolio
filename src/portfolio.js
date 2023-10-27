@@ -317,7 +317,8 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
-  description: "SWE",
+  description: "",
+  // todo: Add work summary
   header_image_path: "experience.svg",
   sections: [
     {
@@ -331,7 +332,9 @@ const experience = {
           logo_path: "honeywell_logo.png",
           duration: "October 2022 - June 2023",
           location: "Hyderabad, Telangana, India",
-          description: "BAFD",
+          description:
+            "\n" +
+            "Successfully led a multifaceted project at Honeywell, encompassing the transformation of the UI/UX for the BA Dashboard website, resulting in a significant enhancement of flight tracking accuracy to over 95% in various scenarios. Additionally, orchestrated the migration of extensive legacy applications from .NET C# to Java Spring Boot, streamlined API development and testing processes through the introduction of Swagger and Portman CLI, generating substantial annual cost savings exceeding $10,000. Furthermore, provided leadership for a team of 9 members in a hackathon initiative, delivering a cutting-edge 3D flight tracking feature using MapBox GL JS and introduced an engaging AR-powered user onboarding experience.",
           color: "#0879bf",
         },
       ],
@@ -346,7 +349,10 @@ const experience = {
           logo_path: "honeywell_logo.png",
           duration: "January 2022 - July 2022",
           location: "Hyderabad, Telangana, India",
-          description: "BAFD",
+          description:
+            "Accomplished a range of critical tasks in software development, including the creation of a Java Spring Boot application that harnessed real-time flight data from Kafka for geofence monitoring in conjunction with PostGIS. This application not only checked flights against predefined geofences but also incorporated a user notification system based on individual preferences. Self-sufficiently managed all aspects of the project, from inception and coding to testing and deployment.\n" +
+            "Furthermore, streamlined functional testing procedures by automating user interactions on dashboard pages through Python scripts utilizing the Selenium WebDriver library. This testing effort involved simulating over 100 concurrent users with Locust and analyzing page load times.\n" +
+            "Finally, performed a complex transformation task by translating more than 2,000 lines of legacy C++ code into a Java Spring Boot Rest API. By optimizing the system to cache database records in memory and parallelizing SQL queries, achieved a remarkable tenfold improvement in response time.",
           color: "#000000",
         },
       ],
@@ -355,14 +361,14 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
+          title: "Volunteer",
+          company: "Rotaract Club of Manipal",
+          company_url: "https://www.instagram.com/rotaractclubmanipal/",
+          logo_path: "rotaract_logo.jpeg",
+          duration: "August 2019 - May 2022",
+          location: "Manipal, Karnataka, India",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+            "Dedicated more than 50 hours to impactful community service, orchestrating and leading initiatives that included organizing blood donation camps, clothing donation drives, successful fundraisers, and compassionate visits to nursing homes, orphanages, and rehabilitation centers.",
           color: "#4285F4",
         },
       ],
@@ -373,7 +379,8 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description: "Coming Soon!",
+  description: "",
+  // todo: add description
   avatar_image_path: "projects_image.svg",
 };
 
