@@ -265,7 +265,7 @@ const skills = {
         "• I have extensively used Java, Python, and JavaScript on projects. I have experience coding in Java for over five years, Python for over three years, and JavaScript for two years.",
         "• I have migrated code from C# and C++ codebases and am familiar with the syntax and various features of both languages.",
         "• I have had to use C, R, MATLAB, and Verilog as a part of coursework and labs during my undergraduate and graduate degrees.",
-        "• I understand the foundations of SQL and have used Postgres, MySQL, and Microsoft SQL Server in projects at Honeywell.",
+        "• I understand the fundamentals of SQL and have used Postgres, MySQL, and Microsoft SQL Server in projects at Honeywell.",
       ],
       softwareSkills: [
         {
