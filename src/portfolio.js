@@ -62,9 +62,10 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "• Use Java and Spring Boot to build RESTful backend services that connect to databases like Postgres with JDBC. Expose APIs for the frontend.",
+        "• Build interactive user interfaces with React and libraries like Leaflet. Use JavaScript, HTML, and CSS for frontend code. ",
+        "• Implement continuous integration with tools like Bamboo and deploy the entire application to OpenShift with Docker containers using DevOps practices.",
+        "• Apply Agile methodologies like Scrum and DevOps practices with CI/CD pipelines to develop, test, deploy, and monitor the application. Use tools like Jira, Bamboo, SonarQube for project management and quality assurance.",
       ],
       softwareSkills: [
         {
@@ -82,19 +83,8 @@ const skills = {
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
           skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
+          fontAwesomeClassname: "logos:javascript",
         },
         {
           skillName: "ReactJS",
@@ -105,7 +95,7 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
           style: {
             color: "#339933",
           },
@@ -125,17 +115,254 @@ const skills = {
           },
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "NestJS",
+          fontAwesomeClassname: "simple-icons:nestjs",
           style: {
-            color: "#663399",
+            color: "#E0234E",
           },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
           style: {
-            color: "#02569B",
+            color: "#092E20",
+          },
+        },
+        {
+          skillName: "Spring Boot",
+          fontAwesomeClassname: "simple-icons:springboot",
+          style: {
+            color: "#6DB33F",
+          },
+        },
+        {
+          skillName: "Kafka",
+          fontAwesomeClassname: "logos:kafka",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "logos:redis",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "logos:docker-icon",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "OpenShift",
+          fontAwesomeClassname: "logos:openshift",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "Bamboo",
+          fontAwesomeClassname: "logos:bamboo",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "Octopus Deploy",
+          fontAwesomeClassname: "logos:octopus-deploy",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "Coverity",
+          fontAwesomeClassname: "logos:coverity",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "SonarQube",
+          fontAwesomeClassname: "logos:sonarqube",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "logos:git",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "Leaflet",
+          fontAwesomeClassname: "simple-icons:leaflet",
+          style: {
+            color: "#bae568",
+          },
+        },
+        {
+          skillName: "Maven",
+          fontAwesomeClassname: "simple-icons:apachemaven",
+          style: {
+            color: "#f17c1c",
+          },
+        },
+        {
+          skillName: "JUnit",
+          fontAwesomeClassname: "simple-icons:junit5",
+          style: {
+            color: "#04a45c",
+          },
+        },
+        {
+          skillName: "Jest",
+          fontAwesomeClassname: "simple-icons:jest",
+          style: {
+            color: "#a53b4e",
+          },
+        },
+        {
+          skillName: "Selenium",
+          fontAwesomeClassname: "simple-icons:selenium",
+          style: {
+            color: "#04b404",
+          },
+        },
+        {
+          skillName: "Postman",
+          fontAwesomeClassname: "simple-icons:postman",
+          style: {
+            color: "#fc5b19",
+          },
+        },
+        {
+          skillName: "Swagger",
+          fontAwesomeClassname: "simple-icons:swagger",
+          style: {
+            color: "#5cec04",
+          },
+        },
+      ],
+    },
+    {
+      title: "Programming Languages",
+      fileName: "ProgrammerImg",
+      skills: [
+        "• I have extensively used Java, Python, and JavaScript on projects. I have experience coding in Java for over five years, Python for over three years, and JavaScript for two years.",
+        "• I have migrated code from C# and C++ codebases and am familiar with the syntax and various features of both languages.",
+        "• I have had to use C, R, MATLAB, and Verilog as a part of coursework and labs during my undergraduate and graduate degrees.",
+        "• I understand the foundations of SQL and have used Postgres, MySQL, and Microsoft SQL Server in projects at Honeywell.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "logos:java",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "logos:python",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "logos:javascript",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "logos:c-plusplus",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "C#",
+          fontAwesomeClassname: "logos:c-sharp",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "C",
+          fontAwesomeClassname: "devicon:c",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "R",
+          fontAwesomeClassname: "logos:r-lang",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "MATLAB",
+          fontAwesomeClassname: "devicon:matlab",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "Verilog",
+          fontAwesomeClassname: "vscode-icons:file-type-light-systemverilog",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "PostgresSQL",
+          fontAwesomeClassname: "logos:postgresql",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "logos:mysql",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "Microsoft SQL Server",
+          fontAwesomeClassname: "devicon-plain:microsoftsqlserver-wordmark",
+          style: {
+            color: "#e6283b",
+            width: "48px",
+            height: "48px",
           },
         },
       ],
@@ -333,7 +560,7 @@ const experience = {
           duration: "October 2022 - June 2023",
           location: "Hyderabad, Telangana, India",
           description:
-            "\n" +
+            "" +
             "Successfully led a multifaceted project at Honeywell, encompassing the transformation of the UI/UX for the BA Dashboard website, resulting in a significant enhancement of flight tracking accuracy to over 95% in various scenarios. Additionally, orchestrated the migration of extensive legacy applications from .NET C# to Java Spring Boot, streamlined API development and testing processes through the introduction of Swagger and Portman CLI, generating substantial annual cost savings exceeding $10,000. Furthermore, provided leadership for a team of 9 members in a hackathon initiative, delivering a cutting-edge 3D flight tracking feature using MapBox GL JS and introduced an engaging AR-powered user onboarding experience.",
           color: "#0879bf",
         },
@@ -350,8 +577,8 @@ const experience = {
           duration: "January 2022 - July 2022",
           location: "Hyderabad, Telangana, India",
           description:
-            "Accomplished a range of critical tasks in software development, including the creation of a Java Spring Boot application that harnessed real-time flight data from Kafka for geofence monitoring in conjunction with PostGIS. This application not only checked flights against predefined geofences but also incorporated a user notification system based on individual preferences. Self-sufficiently managed all aspects of the project, from inception and coding to testing and deployment.\n" +
-            "Furthermore, streamlined functional testing procedures by automating user interactions on dashboard pages through Python scripts utilizing the Selenium WebDriver library. This testing effort involved simulating over 100 concurrent users with Locust and analyzing page load times.\n" +
+            "Accomplished a range of critical tasks in software development, including the creation of a Java Spring Boot application that harnessed real-time flight data from Kafka for geofence monitoring in conjunction with PostGIS. This application not only checked flights against predefined geofences but also incorporated a user notification system based on individual preferences. Self-sufficiently managed all aspects of the project, from inception and coding to testing and deployment." +
+            "Furthermore, streamlined functional testing procedures by automating user interactions on dashboard pages through Python scripts utilizing the Selenium WebDriver library. This testing effort involved simulating over 100 concurrent users with Locust and analyzing page load times." +
             "Finally, performed a complex transformation task by translating more than 2,000 lines of legacy C++ code into a Java Spring Boot Rest API. By optimizing the system to cache database records in memory and parallelizing SQL queries, achieved a remarkable tenfold improvement in response time.",
           color: "#000000",
         },
@@ -447,13 +674,13 @@ const contactPageData = {
     link: "mailto:tanayvpai@gmail.com",
     mail: "tanayvpai@gmail.com",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
-    avatar_image_path: "blogs_image.svg",
-  },
+  // blogSection: {
+  //   title: "Blogs",
+  //   subtitle:
+  //     "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+  //   link: "",
+  //   avatar_image_path: "blogs_image.svg",
+  // },
   addressSection: {
     title: "Location",
     subtitle: "Tempe, AZ",
