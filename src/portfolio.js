@@ -543,7 +543,7 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work, Internship and Volunteering",
   description: "",
   // todo: Add work summary
   header_image_path: "experience.svg",
@@ -585,7 +585,7 @@ const experience = {
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Volunteering",
       experiences: [
         {
           title: "Volunteer",
