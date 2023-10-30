@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Experienced software engineer with a proven track record of designing and developing full-stack web and mobile applications using Java, Python, C++, Spring Boot, Postgres, Node.js, and other technologies. ",
   resumeLink:
-    "https://drive.google.com/file/d/1Cvh5B_h_Rg3c6114u_c7efpUhMvFOL3r/view?usp=sharing",
+    "https://drive.google.com/file/d/1pE0Mwgy4diOOr8MRrPlMXe8NrGde_Xwf/view?usp=sharing",
   portfolio_repository: "https://github.com/tanaypai/masterPortfolio",
   githubProfile: "https://github.com/tanaypai",
 };
