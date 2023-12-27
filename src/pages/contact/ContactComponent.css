@@ -47,6 +47,12 @@
   text-align: center;
 }
 
+.lnkd {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .blog-heading-text-div {
   text-align: center;
 }

@@ -53,6 +53,22 @@ class Contact extends Component {
                   </a>
                 </p>
                 <SocialMedia theme={theme} />
+                <div
+                  className="lnkd badge-base LI-profile-badge"
+                  data-locale="en_US"
+                  data-size="large"
+                  data-theme="light"
+                  data-type="HORIZONTAL"
+                  data-vanity="tanaypai"
+                  data-version="v1"
+                >
+                  <a
+                    className="badge-base__link LI-simple-link"
+                    href="https://www.linkedin.com/in/tanaypai?trk=profile-badge"
+                  >
+                    {/*Tanay Pai*/}
+                  </a>
+                </div>
                 <div className="resume-btn-div">
                   <Button
                     text="See My Resume"

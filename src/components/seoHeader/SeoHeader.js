@@ -52,7 +52,7 @@ function SeoHeader() {
     },
     address: {
       "@type": "PostalAddress",
-      addressLocality: contactPageData.addressSection?.locality,
+      // addressLocality: contactPageData.addressSection?.locality,
       addressRegion: contactPageData.addressSection?.region,
       addressCountry: contactPageData.addressSection?.country,
       postalCode: contactPageData.addressSection?.postalCode,
