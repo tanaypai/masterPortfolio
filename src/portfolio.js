@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Tanay Pai",
   nickname: "tanaypai",
   subTitle:
-    "Experienced software engineer with a proven track record of designing and developing full-stack web and mobile applications using Java, Python, C++, Spring Boot, Postgres, Node.js, and other technologies. ",
+    "Experienced software engineer with a proven track record of designing and developing full-stack web applications using Java, Python, C++, Spring Boot, Postgres, Node.js, and other technologies. ",
   resumeLink:
     "https://drive.google.com/file/d/1pE0Mwgy4diOOr8MRrPlMXe8NrGde_Xwf/view?usp=sharing",
   portfolio_repository: "https://github.com/tanaypai/masterPortfolio",
@@ -399,15 +399,21 @@ const degrees = {
       subtitle: "Master of Science in Computer Science",
       logo_path: "asu_logo.png",
       alt_name: "ASU",
-      duration: "Expected 2025",
+      duration: "Expected May 2025",
+      gpa: "4.00/4.00",
       descriptions: [
-        "Relevant Coursework:",
-        "CSE 551: Foundations of Algorithms",
-        "CSE 575: Statistical Machine Learning",
-        "CSE 520: Computer Architecture II",
-        "CSE 340: Principles of Programming Languages",
+        "Relevant Coursework (Grades - 4.00 GPA Scale):",
+        "CSE 551: Foundations of Algorithms (A - 4.00)",
+        "CSE 575: Statistical Machine Learning (A - 4.00)",
+        "CSE 520: Computer Architecture II (A+ - 4.33)",
+        "CSE 340: Principles of Programming Languages (Prerequisite Course)",
+        "CSE 463: Introduction to Human Computer Interaction",
+        "CSE 598: Topic: Statistical Learning Theory",
+        "CSE 578: Data Visualization",
       ],
       website_link: "https://www.asu.edu/",
+      transcripts_link:
+        "https://drive.google.com/file/d/1dR2tZcoE-ExgWvq8H6UD7f0XSAtEjkUD/view?usp=sharing",
     },
     {
       title: "Manipal Institute of Technology",
@@ -416,6 +422,7 @@ const degrees = {
       logo_path: "manipal_logo.png",
       alt_name: "MIT, Manipal",
       duration: "2018 - 2022",
+      gpa: "8.60/10.00",
       descriptions: [
         "Relevant Coursework (Grades - 10.0 GPA Scale):",
         "ECE 4070: Data Structures and Algorithms (A - 9.0)",
@@ -431,13 +438,24 @@ const degrees = {
         "ECE 2151: Computer Organization and Architecture (B - 8.0)",
         "CSE 1051: Problem Solving Using Computers (A - 9.0)",
       ],
-      website_link: "http://manipal.edu",
+      website_link: "https://manipal.edu",
+      transcripts_link:
+        "https://drive.google.com/file/d/1PBukomVx6E0FQ8yd_buIVZgjS0eM7pgo/view?usp=sharing",
     },
   ],
 };
 
 const certifications = {
   certifications: [
+    {
+      title: "Principles of Programming Languages",
+      subtitle: "- Ayan Banerjee",
+      logo_path: "asu_logo.png",
+      certificate_link:
+        "https://api.badgr.io/public/assertions/4Fi902W9SVuc7Wcx4f_QSA",
+      alt_name: "asu",
+      color_code: "#a40444",
+    },
     {
       title: "Data Science Specialization",
       subtitle: "- Jeff Leek, Roger Peng, and Brian Caffo",
