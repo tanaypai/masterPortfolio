@@ -408,8 +408,9 @@ const degrees = {
         "CSE 520: Computer Architecture II (A+ - 4.33)",
         "CSE 340: Principles of Programming Languages (Prerequisite Course)",
         "CSE 463: Introduction to Human Computer Interaction",
-        "CSE 598: Topic: Statistical Learning Theory",
+        "CSE 536: Advanced Operating Systems",
         "CSE 578: Data Visualization",
+        "CSE 310: Data Structures and Algorithms (Audit)",
       ],
       website_link: "https://www.asu.edu/",
       transcripts_link:
