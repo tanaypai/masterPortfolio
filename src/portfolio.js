@@ -8,8 +8,7 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Tanay Pai",
-  description:
-    "Experienced software engineer with a proven track record of designing and developing full-stack web and mobile applications using Java, Python, C++, Spring Boot, Postgres, Node.js, and other technologies. ",
+  description: "",
   og: {
     title: "Tanay Pai",
     type: "website",
@@ -22,8 +21,7 @@ const greeting = {
   title: "Tanay Pai",
   logo_name: "Tanay Pai",
   nickname: "tanaypai",
-  subTitle:
-    "Experienced software engineer with a proven track record of designing and developing full-stack web applications using Java, Python, C++, Spring Boot, Postgres, Node.js, and other technologies. ",
+  subTitle: "Software Engineering Graduate Intern at Dell Technologies",
   resumeLink:
     "https://drive.google.com/file/d/1pE0Mwgy4diOOr8MRrPlMXe8NrGde_Xwf/view?usp=sharing",
   portfolio_repository: "https://github.com/tanaypai/masterPortfolio",
@@ -64,6 +62,7 @@ const skills = {
       skills: [
         "• Use Java and Spring Boot to build RESTful backend services that connect to databases like Postgres with JDBC. Expose APIs for the frontend.",
         "• Build interactive user interfaces with React and libraries like Leaflet. Use JavaScript, HTML, and CSS for frontend code. ",
+        "• Leveraging disparate database technologies like Redis (key-value store) and TigerGraph (graph database) to build efficient solutions.",
         "• Implement continuous integration with tools like Bamboo and deploy the entire application to OpenShift with Docker containers using DevOps practices.",
         "• Apply Agile methodologies like Scrum and DevOps practices with CI/CD pipelines to develop, test, deploy, and monitor the application. Use tools like Jira, Bamboo, SonarQube for project management and quality assurance.",
       ],
@@ -129,6 +128,10 @@ const skills = {
           },
         },
         {
+          skillName: ".NET",
+          fontAwesomeClassname: "logos:dotnet",
+        },
+        {
           skillName: "Spring Boot",
           fontAwesomeClassname: "simple-icons:springboot",
           style: {
@@ -146,6 +149,14 @@ const skills = {
         {
           skillName: "Redis",
           fontAwesomeClassname: "logos:redis",
+          style: {
+            width: "48px",
+            height: "48px",
+          },
+        },
+        {
+          skillName: "TigerGraph",
+          imageSrc: "tigergraph_logo.png",
           style: {
             width: "48px",
             height: "48px",
@@ -365,6 +376,10 @@ const skills = {
             height: "48px",
           },
         },
+        {
+          skillName: "GraphQL",
+          fontAwesomeClassname: "logos:graphql",
+        },
       ],
     },
   ],
@@ -402,14 +417,14 @@ const degrees = {
       duration: "Expected May 2025",
       gpa: "4.00/4.00",
       descriptions: [
-        "Relevant Coursework (Grades - 4.00 GPA Scale):",
+        "Coursework (Grades - 4.00 GPA Scale):",
         "CSE 551: Foundations of Algorithms (A - 4.00)",
         "CSE 575: Statistical Machine Learning (A - 4.00)",
         "CSE 520: Computer Architecture II (A+ - 4.33)",
         "CSE 340: Principles of Programming Languages (Prerequisite Course)",
-        "CSE 463: Introduction to Human Computer Interaction",
-        "CSE 536: Advanced Operating Systems",
-        "CSE 578: Data Visualization",
+        "CSE 463: Introduction to Human Computer Interaction (A+ - 4.33)",
+        "CSE 536: Advanced Operating Systems (A+ - 4.33)",
+        "CSE 578: Data Visualization (A+ - 4.33)",
         "CSE 310: Data Structures and Algorithms (Audit)",
       ],
       website_link: "https://www.asu.edu/",
@@ -448,6 +463,15 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    {
+      title: "Supervised Machine Learning: Regression and Classification ",
+      subtitle: "- Andrew Ng",
+      logo_path: "deeplearning_ai_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/records/YTB6P84E7NRG",
+      alt_name: "deeplearning.ai",
+      color_code: "#00000099",
+    },
     {
       title: "Principles of Programming Languages",
       subtitle: "- Ayan Banerjee",
@@ -568,11 +592,25 @@ const experience = {
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Work and Internships",
       work: true,
       experiences: [
         {
+          title: "Software Engineering Intern",
+          line_height: 300,
+          company: "Dell",
+          company_url: "https://dell.com/",
+          logo_path: "dell_logo.png",
+          duration: "May 2024 - Present",
+          location: "Austin, TX",
+          description:
+            "" +
+            "Delivered an initiative to modernize commodity datasets by importing them into TigerGraph and building a UI for easy retrieval and editing, significantly increasing productivity.",
+          color: "#0879bf",
+        },
+        {
           title: "Software Engineer I",
+          line_height: 300,
           company: "Honeywell",
           company_url: "https://honeywell.com/",
           logo_path: "honeywell_logo.png",
@@ -583,13 +621,9 @@ const experience = {
             "Successfully led a multifaceted project at Honeywell, encompassing the transformation of the UI/UX for the BA Dashboard website, resulting in a significant enhancement of flight tracking accuracy to over 95% in various scenarios. Additionally, orchestrated the migration of extensive legacy applications from .NET C# to Java Spring Boot, streamlined API development and testing processes through the introduction of Swagger and Portman CLI, generating substantial annual cost savings exceeding $10,000. Furthermore, provided leadership for a team of 9 members in a hackathon initiative, delivering a cutting-edge 3D flight tracking feature using MapBox GL JS and introduced an engaging AR-powered user onboarding experience.",
           color: "#0879bf",
         },
-      ],
-    },
-    {
-      title: "Internships",
-      experiences: [
         {
           title: "Software Engineering Intern",
+          line_height: 300,
           company: "Honeywell",
           company_url: "https://honeywell.com/",
           logo_path: "honeywell_logo.png",
@@ -608,6 +642,32 @@ const experience = {
       experiences: [
         {
           title: "Volunteer",
+          line_height: 200,
+          company: "Desert CodeSprouts",
+          company_url:
+            "https://scai.engineering.asu.edu/desert-codesprouts-workshop/",
+          logo_path: "codesprouts_logo.png",
+          duration: "March 2024 - Present",
+          location: "Tempe, AZ",
+          description:
+            "Desert CodeSprouts is a workshop organized by the School of Computing and Augmented Intelligence that aims to encourage female participation in computer science by increasing interest and exposure to various topics in the field. Demonstrated the application of HTML and CSS in developing websites by creating presentations and guided participants in creating their own websites.",
+          color: "#4285F4",
+        },
+        {
+          title: "Volunteer",
+          line_height: 180,
+          company: "ASU International Students and Scholars Center",
+          company_url: "https://issc.asu.edu/",
+          logo_path: "issc_logo.jpg",
+          duration: "January 2024 - May 2024",
+          location: "Tempe, AZ",
+          description:
+            "Organized and volunteered in various events hosted by the International Students and Scholars Center at ASU throughout the Spring 2024 semester.",
+          color: "#4285F4",
+        },
+        {
+          title: "Volunteer",
+          line_height: 0,
           company: "Rotaract Club of Manipal",
           company_url: "https://www.instagram.com/rotaractclubmanipal/",
           logo_path: "rotaract_logo.jpeg",
