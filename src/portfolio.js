@@ -610,7 +610,7 @@ const experience = {
         },
         {
           title: "Software Engineer I",
-          line_height: 300,
+          line_height: 250,
           company: "Honeywell",
           company_url: "https://honeywell.com/",
           logo_path: "honeywell_logo.png",
@@ -623,7 +623,7 @@ const experience = {
         },
         {
           title: "Software Engineering Intern",
-          line_height: 300,
+          line_height: 0,
           company: "Honeywell",
           company_url: "https://honeywell.com/",
           logo_path: "honeywell_logo.png",
