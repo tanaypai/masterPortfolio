@@ -20,8 +20,8 @@ const seo = {
 const greeting = {
   title: "Tanay Pai",
   logo_name: "Tanay Pai",
-  nickname: "tanaypai",
-  subTitle: "Software Engineering Graduate Intern at Dell Technologies",
+  nickname: "",
+  subTitle: "M.S. Computer Science at ASU",
   resumeLink:
     "https://drive.google.com/file/d/1pE0Mwgy4diOOr8MRrPlMXe8NrGde_Xwf/view?usp=sharing",
   portfolio_repository: "https://github.com/tanaypai/masterPortfolio",
@@ -417,15 +417,18 @@ const degrees = {
       duration: "Expected May 2025",
       gpa: "4.00/4.00",
       descriptions: [
-        "Coursework (Grades - 4.00 GPA Scale):",
-        "CSE 551: Foundations of Algorithms (A - 4.00)",
-        "CSE 575: Statistical Machine Learning (A - 4.00)",
-        "CSE 520: Computer Architecture II (A+ - 4.33)",
-        "CSE 340: Principles of Programming Languages (Prerequisite Course)",
-        "CSE 463: Introduction to Human Computer Interaction (A+ - 4.33)",
-        "CSE 536: Advanced Operating Systems (A+ - 4.33)",
-        "CSE 578: Data Visualization (A+ - 4.33)",
-        "CSE 310: Data Structures and Algorithms (Audit)",
+        "Coursework:",
+        "• CSE 310 - Data Structures and Algorithms",
+        "• CSE 340 - Principles of Programming Languages",
+        "• CSE 463 - Introduction to Human Computer Interaction",
+        "• CSE 520 - Computer Architecture II",
+        "• CSE 536 - Advanced Operating Systems",
+        "• CSE 551 - Foundations of Algorithms",
+        "• CSE 575 - Statistical Machine Learning",
+        "• CSE 576 - Topics in Natural Language Processing",
+        "• CSE 578 - Data Visualization",
+        "• CSE 598 - Statistical Learning Theory",
+        "• CSE 598 - Engineering Blockchain Applications",
       ],
       website_link: "https://www.asu.edu/",
       transcripts_link:
@@ -440,19 +443,19 @@ const degrees = {
       duration: "2018 - 2022",
       gpa: "8.60/10.00",
       descriptions: [
-        "Relevant Coursework (Grades - 10.0 GPA Scale):",
-        "ECE 4070: Data Structures and Algorithms (A - 9.0)",
-        "ECE 4080: Object Oriented Programming Using C++ (A+ - 10.0)",
-        "ECE 4081: Operating Systems for Advanced Processors (A - 9.0)",
-        "CSE 4305: Principles of Soft Computing (A - 9.0)",
-        "CSE 4307: Programming in C# (A - 9.0)",
-        "CRA 4060: Introduction to Data Science (A+ - 10.0)",
-        "CRA 4059: Data Scientists' Toolbox and R Programming (A+ - 10.0)",
-        "CRA 4061: Data Science Part - II (A - 9.0)",
-        "CRA 4062: Advanced Data Science Part - III (A+ - 10.0)",
-        "ICT 4305: Networking with TCP/IP (B - 8.0)",
-        "ECE 2151: Computer Organization and Architecture (B - 8.0)",
-        "CSE 1051: Problem Solving Using Computers (A - 9.0)",
+        "Relevant Coursework:",
+        "• ECE 4070: Data Structures and Algorithms",
+        "• ECE 4080: Object Oriented Programming Using C++",
+        "• ECE 4081: Operating Systems for Advanced Processors",
+        "• CSE 4305: Principles of Soft Computing",
+        "• CSE 4307: Programming in C#",
+        "• CRA 4060: Introduction to Data Science",
+        "• CRA 4059: Data Scientists' Toolbox and R Programming",
+        "• CRA 4061: Data Science Part - II",
+        "• CRA 4062: Advanced Data Science Part - III",
+        "• ICT 4305: Networking with TCP/IP",
+        "• ECE 2151: Computer Organization and Architecture",
+        "• CSE 1051: Problem Solving Using Computers",
       ],
       website_link: "https://manipal.edu",
       transcripts_link:
@@ -596,16 +599,43 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "Graduate Teaching Assistant",
+          line_height: 300,
+          company: "Arizona State University",
+          company_url:
+            "https://labs.engineering.asu.edu/mps-lab/teaching/cse420/",
+          logo_path: "asu_logo.png",
+          duration: "August 2024 - Present",
+          location: "Tempe, AZ",
+          description: [
+            "As a Teaching Assistant for CSE 420 (Computer Architecture I) and CSE 520 (Computer Architecture II), I collaborated with the professor to integrate student feedback, improve course content, and occasionally lead classes. My responsibilities included hosting weekly office hours, grading assignments and projects for over 200 students, designing challenging projects to assess performance, and answering questions on online discussion forums. Additionally, I ensured academic integrity in alignment with ASU's Academic Integrity Policy.",
+          ],
+          color: "#0879bf",
+        },
+        {
+          title: "Learning Assistant",
+          line_height: 300,
+          company: "Fulton Schools of Engineering Tutoring Centers",
+          company_url: "https://career.engineering.asu.edu/",
+          logo_path: "FSE_logo.jpeg",
+          duration: "August 2024 - Present",
+          location: "Tempe, AZ",
+          description: [
+            "As a Learning Assistant at the Fulton Schools of Engineering Tutoring Centers, I provided supplemental instruction, assisted students with course projects, and addressed their questions in the following courses: CSE 205 (Object-Oriented Programming and Data Structures), CSE 230 (Computer Organization and Assembly Language Programming), CSE 240 (Introduction to Programming Languages), CSE 310 (Data Structures and Algorithms), and CSE 340 (Principles of Programming Languages).",
+          ],
+          color: "#0879bf",
+        },
+        {
           title: "Software Engineering Intern",
           line_height: 300,
           company: "Dell",
           company_url: "https://dell.com/",
           logo_path: "dell_logo.png",
-          duration: "May 2024 - Present",
+          duration: "May 2024 - August 2024",
           location: "Austin, TX",
           description:
             "" +
-            "Delivered an initiative to modernize commodity datasets by importing them into TigerGraph and building a UI for easy retrieval and editing, significantly increasing productivity.",
+            "As a Software Engineering Graduate Intern on Dell's Business Systems and Data Operations (BSDO) Team in the Client Solutions Group (CSG), I worked with cross-functional stakeholders to enhance operational efficiency and modernize the offer lifecycle by digitizing hardware datasets. My responsibilities included defining data models and schemas, automating the migration of datasets from CSV to a TigerGraph database using Python, and developing a C# application with GraphQL and React to create a user-friendly interface for viewing and editing data.",
           color: "#0879bf",
         },
         {
@@ -640,6 +670,19 @@ const experience = {
     {
       title: "Volunteering",
       experiences: [
+        {
+          title: "Career Fair Volunteer",
+          line_height: 200,
+          company: "Fulton Schools of Engineering Career Center",
+          company_url:
+            "https://scai.engineering.asu.edu/desert-codesprouts-workshop/",
+          logo_path: "FSE_logo.jpeg",
+          duration: "September 2024",
+          location: "Tempe, AZ",
+          description:
+            "Volunteered at the Fulton Schools of Engineering Fall 2024 Career Fairs – assisted recruiters in understanding regulations and guided students to prospective employers based on their background.",
+          color: "#4285F4",
+        },
         {
           title: "Volunteer",
           line_height: 200,
