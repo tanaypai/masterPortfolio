@@ -57,22 +57,22 @@ class DegreeCard extends Component {
                   </p>
                 );
               })}
-              {degree.transcripts_link && (
-                <a
-                  href={degree.transcripts_link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div
-                    className="visit-btn"
-                    style={{ backgroundColor: theme.headerColor }}
-                  >
-                    <p className="btn" style={{ color: theme.text }}>
-                      View Transcripts
-                    </p>
-                  </div>
-                </a>
-              )}
+              {/*{degree.transcripts_link && (*/}
+              {/*  <a*/}
+              {/*    href={degree.transcripts_link}*/}
+              {/*    target="_blank"*/}
+              {/*    rel="noopener noreferrer"*/}
+              {/*  >*/}
+              {/*    <div*/}
+              {/*      className="visit-btn"*/}
+              {/*      style={{ backgroundColor: theme.headerColor }}*/}
+              {/*    >*/}
+              {/*      <p className="btn" style={{ color: theme.text }}>*/}
+              {/*        View Transcripts*/}
+              {/*      </p>*/}
+              {/*    </div>*/}
+              {/*  </a>*/}
+              {/*)}*/}
               {degree.website_link && (
                 <a
                   href={degree.website_link}
