@@ -24,6 +24,7 @@ const greeting = {
   subTitle: "M.S. Computer Science at ASU",
   resumeLink:
     "https://drive.google.com/file/d/1pE0Mwgy4diOOr8MRrPlMXe8NrGde_Xwf/view?usp=sharing",
+  asuProfile: "https://search.asu.edu/profile/4734589",
   portfolio_repository: "https://github.com/tanaypai/masterPortfolio",
   githubProfile: "https://github.com/tanaypai",
 };
@@ -37,20 +38,41 @@ const socialMediaLinks = [
   {
     name: "Github",
     link: "https://github.com/tanaypai",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    fontAwesomeIcon: "fa-brands fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/tanaypai/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    fontAwesomeIcon: "fa-brands fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "Gmail",
     link: "mailto:tanayvpai@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    fontAwesomeIcon: "fa-regular fa-envelope", // Reference https://fontawesome.com/icons/envelope?style=regular
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  },
+  {
+    name: "Goodreads",
+    link: "https://goodreads.com/tanaypai",
+    fontAwesomeIcon: "fa-brands fa-goodreads-g", // Reference https://fontawesome.com/icons/goodreads?style=brands
+    backgroundColor: "#E9E5CD", // Reference https://simpleicons.org/?q=goodreads
+  },
+  {
+    name: "HackerRank",
+    link: "https://hackerrank.com/tanaypai",
+    fontAwesomeIcon: "fa-brands fa-hackerrank", // Reference https://fontawesome.com/icons/hackerrank?style=brands
+    backgroundColor: "#2cc464", // Reference https://simpleicons.org/?q=hackerrank
+  },
+  {
+    name: "Leetcode",
+    link: "https://leetcode.com/tanaypai",
+    iconify: "cib:leetcode", // Reference https://fontawesome.com/icons/hackerrank?style=brands
+    style: {
+      color: "#eba340",
+    },
+    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=hackerrank
   },
 ];
 

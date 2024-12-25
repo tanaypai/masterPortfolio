@@ -25,9 +25,18 @@ export default function socialMedia(props) {
             rel="noopener noreferrer"
           >
             <IconWrapper {...media} {...props}>
-              <i className={`fab ${media.fontAwesomeIcon}`}></i>
+              {!media.iconify && <i className={`${media.fontAwesomeIcon}`}></i>}
+              {media.iconify && (
+                <i>
+                  <span
+                    className="iconify"
+                    data-icon={media.iconify}
+                    style={media.style}
+                    data-inline="true"
+                  ></span>
+                </i>
+              )}
             </IconWrapper>
-            {/* <span></span> */}
           </a>
         );
       })}
