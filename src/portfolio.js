@@ -48,6 +48,12 @@ const socialMediaLinks = [
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
+    name: "Handshake",
+    link: "https://asu.joinhandshake.com/profiles/fcej8b",
+    fontAwesomeIcon: "fa-solid fa-handshake",
+    backgroundColor: "#d2fb4c", // Reference https://simpleicons.org/?q=hackerrank
+  },
+  {
     name: "Gmail",
     link: "mailto:tanayvpai@gmail.com",
     fontAwesomeIcon: "fa-regular fa-envelope", // Reference https://fontawesome.com/icons/envelope?style=regular
